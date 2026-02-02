@@ -80,7 +80,7 @@ Now we want to add our repository that we created on Github to this folder.
 
 ### Setting up our Github ssh key
 
-1. In your terminal, follow the [instructions to generate a new ssh key](https://docs.github.com/authentication/connecting-to-github-with-ssh)
+1. In your terminal, follow the [instructions to generate a new ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
    - It is different between Mac and PC!
 2. In your terminal, [copy your ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
 3. In your browser in Github → Profile → Settings → SSH and GPG keys → New SSH key and paste the contents of your clipboard.
