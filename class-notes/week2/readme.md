@@ -128,7 +128,7 @@ Throughout this class you will be expected to research. This will apply to both 
 - [Artists Featured in Form and Code](http://formandcode.com/links)
 - [linci.co Design Bookmarks](https://bookmarks.linci.co/)
 - Tumblr, Instagram, Are.na, Social Media etc...
-- [This google doc](https://docs.google.com/document/d/1YChLZMa0t8aE5YQGj0BufvFvhxeVhJ7ojORiLU7coj8/edit?usp=sharing)
+- [Our class collaborative doc](https://cryptpad.fr/doc/#/2/doc/edit/Ig+akvVK7c4PkOklxapwc1ki/)
 
 ##### Inspiration
 
