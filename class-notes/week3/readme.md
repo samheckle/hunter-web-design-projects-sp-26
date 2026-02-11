@@ -51,3 +51,83 @@ Next week you will get your group assignments, but start thinking about what dat
 ## Introduction to APIs
 
 Today, we will focus on the front-end of APIs to make changes to our HTML pages using JavaScript. Next week we will set up our servers on DigitalOcean and use the back-end.
+
+Application Programming Interfaces (API) are ways for us to connect to other servers that send data on the web.
+
+We already know now that the internet is made up of clients and servers. So far, we have covered client-side programming using HTML/CSS and client-side interactions with JavaScript. We can also access data from another server by using APIs.
+
+When we request information from a server, it can be broken down into one of 8 different types of requests. We will pretty much only work with 4:
+
+| Request  | Info                                                   | Example                    |
+| -------- | ------------------------------------------------------ | -------------------------- |
+| `GET`    | retrieving information, usually a webpage or file      | visiting a webpage via url |
+| `POST`   | sending information, usually via a form                | creating an account        |
+| `PUT`    | updating information on the server, usually via a form | updating a password        |
+| `DELETE` | deleting information on the server, usually via a form | deleting an account        |
+
+See WizardZines for an explanation on all the requests:
+
+- [Part 1](https://wizardzines.com/comics/request-methods-1/)
+- [Part 2](https://wizardzines.com/comics/request-methods-2/)
+
+Specifically, a lot of servers use Representational State Transfer (REST) as the core schematic for constructing a request.
+
+Something else we will continuously look at are `asynchronous functions`.
+[Asynchronous](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Async_JS/Introducing) allows us to simultaneously run different lines of code, as opposed to running them sequentially. This is because making a request to another server will take a little longer than rendering something on our own webpage. But, if we want to modify our own data on our client we need to be able to wait for the request to complete.
+
+### Deconstructing a GET request
+
+When we make a GET request inside the browser, it comes via the URL. For example, if the URL you are requesting is:
+
+```
+http://www.omdbapi.com/??apikey=keykeyKeyKey&s="one%20battle%20after%20another"
+```
+
+Everything that comes after the `?` (query) is a request parameter. So, we need to build our code to look like this url.
+
+### Using `fetch()`, `async` and `await`
+
+- [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) allows us to make a request to a URL with javascript
+- [`async`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) goes in the function header to declare a function as `asynchronous`, or enabling multiple actions at once
+- [`await`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) tells the asynchronous function to wait for a specific response before continuing
+
+Let's work with the OMDB api: https://www.omdbapi.com/
+
+1. Create an API key (it should look something like `abc123fed`)
+2. We want to reconstruct the URL parameters with the code. This means `?apikey=keykeyKeyKey&s="one%20battle%20after%20another"`. We can use the JavaScript object `URLSearchParams`
+
+```js
+let params = new URLSearchParams({
+  apikey: "your-key-here",
+  s: "one battle after another",
+  type: "movie",
+});
+```
+
+3. Reconstruct the URL using this object
+
+```js
+let url = "https://www.omdbapi.com/?" + params;
+```
+
+4. Fetch the url
+
+```js
+let response = await fetch(url);
+```
+
+It is also useful to print out the response here to see how the data is structured.
+
+5. Convert the response to `json` notation
+
+```js
+let jsonData = await response.json().then(//do successful action, // do error action)
+```
+
+6. We need to write these handler functions, and we could do that as an external function or anonymous functions embedded in the parameter.
+
+### Related Coding Train Videos
+
+- [`fetch()`](https://thecodingtrain.com/tracks/data-and-apis-in-javascript/data/1-client-side/1-fetch)
+- [`async`/`await` 1](https://thecodingtrain.com/tracks/topics-in-native-javascript/js/async-await-part-1)
+- [`async`/`await` 2](https://thecodingtrain.com/tracks/topics-in-native-javascript/js/async-await-part-2)
