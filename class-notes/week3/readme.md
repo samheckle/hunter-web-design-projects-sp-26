@@ -23,6 +23,8 @@ Assign someone to notes during each share, and then the person presenting should
   - Question: What are you curious about? This could be a design decision or a technical question.
   - Polish: What would you improve? Think beyond your current technical limitations. What would make this blog better?
 
+Collaborative notes doc: https://cryptpad.fr/doc/#/2/doc/edit/3QRCBbRgCX1gNb6VHGow+Ysk/
+
 We will come together as a class and everyone will share their blogs and what their group talked about.
 
 ---
