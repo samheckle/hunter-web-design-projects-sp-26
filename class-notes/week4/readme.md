@@ -227,26 +227,6 @@ nodemon server.js
 
 If this command does not work, you might need to append `npx`, like `npx nodemon server.js`.
 
-##### Exposing the `public` directory for static files
-
-If we want files in our `public` directory to be accessible to the web browser (remember how so far we’ve been adding all our `.html`, `.css` and `.js` files to the `public` directory), we need to explicitly tell Express to do so:
-
-```jsx
-const express = require("express");
-
-const app = express()
-// Tell Express to look in the "public" folder for any files first
-app.use(express.static("public"))
-
-app.get("/test", (request, response) => {
-    response.send("Test: Server is working");
-}));
-
-app.listen(8000, () => {
-  console.log("App listening on port 8000");
-});
-```
-
 ##### Sending Data From Client → Server
 
 ###### GET and `query`
