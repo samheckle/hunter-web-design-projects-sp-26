@@ -177,6 +177,9 @@ Deliverables:
 - [The Internet Has Borders](https://archive.is/iwDiI) - Anna Rose Kerr, 2025
 - [I Know a Place](https://pioneerworks.org/broadcast/i-know-a-place-pipkin) - Everest Pipkin, 2021
 - [Alive Internet Theory](https://news.spencer.place/p/alive-internet-theory) - Spencer Chang, 2025
+- Optional: 
+   - [individualism in the dead-internet age](https://alienmelon.itch.io/shovelware)
+      - [video playthrough](https://youtu.be/zPmZ48n3NxU) (17 min)
 
 ---
 
