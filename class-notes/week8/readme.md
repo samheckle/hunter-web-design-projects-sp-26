@@ -28,7 +28,7 @@ npm init -y
 ```
 
 ```sh
-npm install express ejs multer
+npm install express njk multer cookie-parser
 ```
 
 #### What is multer?
