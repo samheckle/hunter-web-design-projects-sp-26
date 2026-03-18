@@ -2,8 +2,9 @@
 
 ## Agenda
 
-1. Review
-2. In class project work time in groups
+1. Reading Discussion
+2. Review
+3. In class project work time in groups
 
 ## Review
 
