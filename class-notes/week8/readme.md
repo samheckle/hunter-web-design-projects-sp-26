@@ -6,6 +6,15 @@
 2. Review
 3. In class project work time in groups
 
+## Reading Discussion
+
+Take notes in [this cryptpad](https://cryptpad.fr/doc/#/2/doc/edit/vIu1xcBC9Tig4sdU4-MezsQ5/)
+
+- Big takeaways? What did you write about in your blog post?
+- How would you define your relationship with the web at this moment in time?
+- What do computer programs (and human beings) need to know about the external world in order to build plausible digital representations of it. What kind of cognitive activity is involved in the making and reading of those representations?
+- What is your relationship with AI at this time?
+
 ## Review
 
 ### Uploading Images
@@ -19,7 +28,7 @@ npm init -y
 ```
 
 ```sh
-npm install express ejs multer
+npm install express njk multer cookie-parser
 ```
 
 #### What is multer?
