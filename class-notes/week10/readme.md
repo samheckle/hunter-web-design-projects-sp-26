@@ -3,12 +3,31 @@
 ## Agenda
 
 1. Reading Discussion #4
-2. Tutorial: Dynamic Pages in Express
-3. Project #3
+2. Review!
+3. Tutorial: Dynamic Pages in Express
+4. Project #3
 
 ## Reading Discussion #4
 
 Take notes in your breakout rooms in this cryptpad: https://cryptpad.fr/doc/#/2/doc/edit/rGzAyhPDJfX5rouo2MqMzasP/
+
+### References Discussed
+
+Archives
+
+- Anna's Archive
+- The Internet Archive: [archive.org](https://archive.org/)
+
+Networks
+- Meshtastic: https://meshtastic.org/
+- NYC Mesh: https://www.nycmesh.net/
+
+## Review!
+
+1. Download the [starter folder](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fsamheckle%2Fhunter-web-design-projects-sp-26%2Ftree%2Fmain%2Fclass-notes%2Fweek10%2Fstarter)
+2. Extract and rename the folder to week10
+3. Move the folder into your class-notes folder
+4. Answer the questions in the comments
 
 ## Project #3
 
