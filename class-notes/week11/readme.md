@@ -2,7 +2,7 @@
 
 ## Agenda
 
-1. Upcoming Events 
+1. Upcoming Events
 2. Project #3 Concept Review
 3. Tutorial: Introduction to WebSockets and Real Time Interaction
 
@@ -16,24 +16,24 @@
 - 3pm Reception with refreshments
 - 3:30-5pm Artist Talk followed by Q&A
 - 6-9pm Workshop with IMA students and advanced undergrads
-    - The workshop title is: Identifying Creative Focus: Astonishment, Discernment & Integration into Practice
-    - Identifying specifically what quickens your pulse as an artist can be murky territory. In this workshop, we will help you discern your area of focus and where/how you can apply your technical skills strategically to support your conceptual goals. 
+  - The workshop title is: Identifying Creative Focus: Astonishment, Discernment & Integration into Practice
+  - Identifying specifically what quickens your pulse as an artist can be murky territory. In this workshop, we will help you discern your area of focus and where/how you can apply your technical skills strategically to support your conceptual goals.
 
-Instead of meeting during our regular session, I will be offering extra credit for students who attend the talk/workshop *in person*. For those not attending in person, we will do 1:1 sessions from 5-6pm and move our reading discussion to next week. Please send me an email if you are planning on attending!
+Instead of meeting during our regular session, I will be offering extra credit for students who attend the talk/workshop _in person_. For those not attending in person, we will do 1:1 sessions from 5-6pm and move our reading discussion to next week. Please send me an email if you are planning on attending!
 
 5/1: F(r)ictions: Creative Work in an Age of AI
 
-- https://www.aicreativelabor.com/project/frictions
-- 9:30 AM–3:30 PM 
+- https://www.aicreativelabor.com/project/frictions | RSVP: https://frictionscreativeworkinanageof.splashthat.com/
+- 9:30 AM–3:30 PM
 - The New School 63 5th Ave University Center, Hoerle Lecture Hall Room L105, New York, NY
 
-> This day-long convening brings together practitioners, legal scholars, social scientists, and students to investigate the present and future of creative work in an age of AI. 
+> This day-long convening brings together practitioners, legal scholars, social scientists, and students to investigate the present and future of creative work in an age of AI.
 
 I will be speaking on the last panel from 1:45-3:00pm with [Ari Melenciano](https://ariciano.earth/) and [Taeyoon Choi](https://taeyoonchoi.com/)
 
 ## Project #3 Concept Review
 
-As a class, let's review each group concept proposals. In [this cryptpad](https://cryptpad.fr/doc/#/2/doc/edit/HhLGELHZfvWXt-m2nfablAoo/), write notes and feedback on each group. 
+As a class, let's review each group concept proposals. In [this cryptpad](https://cryptpad.fr/doc/#/2/doc/edit/HhLGELHZfvWXt-m2nfablAoo/), write notes and feedback on each group.
 
 ## Tools to make your life easier
 
