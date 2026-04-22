@@ -41,6 +41,13 @@ Deliverables:
 - 5/6: Prototype, with specific open questions your want feedback on.
 - 5/20: Project due
 
+### Related Projects
+- [17776 What Football Will Look Like](https://www.sbnation.com/a/17776-football/)
+- [tilde.town](https://tilde.town/)
+- [smallbird.social](https://smallbird.social/)
+- https://ribo.zone/plants/ive/eaten
+- https://2017.place-atlas.stefanocoding.me/ | [explanation](https://2017.place-atlas.stefanocoding.me/about)
+
 ### Groups
 
 - Daniel, Shasuna, Scott, Werner

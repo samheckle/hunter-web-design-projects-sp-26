@@ -61,6 +61,9 @@ Open the Settings tab:
 4. On the left menu, select Pages. 
 5. Under Build and Deployment → Branch → Select `gh-pages`. Press Save.
 
+Open the Actions tab:
+1. Press "I understand" to enable github workflows. 
+
 ### First Time Setup: Local
 
 You will need to go through the steps to clone this to your computer. This is pretty similar to what we did last time:
