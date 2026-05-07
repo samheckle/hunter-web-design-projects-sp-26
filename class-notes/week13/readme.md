@@ -27,6 +27,12 @@ In Terminal / GitBash:
 du -sh ~/Library/Application\ Support/Google/Chrome/Default/OptGuideOnDeviceModel/
 ```
 
+Links mentioned:
+- https://www.nycresistor.com/
+- https://ridgewoodcommons.nyc/
+- https://en.wikipedia.org/wiki/Cybernetic_Serendipity | really cool publication: https://archive.org/details/cybernetic-serendipity
+- https://en.wikipedia.org/wiki/Section_230
+
 ## Project #3 Prototype Critique
 
 Each group will present their project prototype to receive critique from the class.
