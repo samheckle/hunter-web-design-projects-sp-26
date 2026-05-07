@@ -127,6 +127,14 @@ To begin, designate roles for your group to follow along with this demo: `Role #
 18. Have your group mates review the change.
 19. To merge your changes into the main branch, press the `merge` button.
 
+### Syncing your branch with the main branch
+
+Once you or one of your teammates has added to the main branch, you need to pull from that branch into your own.
+
+```sh
+git pull origin main
+```
+
 ### Why are we doing this?
 
 To learn industry practices on how to work on a team of developers. GitHub and version control systems are like the Google Docs of code. We don't have real-time typing systems since we also might need to build or run a server to see the output of the code (think building our blogs, or running our local servers).
