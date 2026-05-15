@@ -1,0 +1,21 @@
+<html>
+    {% include "header.njk" %}
+    <body>
+        {% include "nav.njk" %}
+        <section>
+            you have visited {{ numVisits }} times!
+        </section>
+        <form method="POST" action="/make-post" enctype="application/json">
+            <input type="text" name="text">
+            <input type="submit" value="submit">
+        </form>
+        <div>
+            {% for post in posts %}
+                <span>{{ post.media }}</span> 
+                {% if post.userId == user %}
+                | delete post: <a href="/delete">x</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </body>
+</html>
